@@ -1,5 +1,7 @@
 # CrowdStricken: Experimental Crowdstrike Solution
 
+If this helps you, please consider donating with Cash App to $SudoBashX
+
 ## Experimental Nature of Script:
 
 This script is provided on an experimental basis and is not guaranteed to resolve issues related to Crowdstrike or any associated outages. 
