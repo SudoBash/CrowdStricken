@@ -1,4 +1,4 @@
-# CrowdStricken: Experimental Crowdstrike Solution
+# CrowdStricken: Experimental Crowdstrike Solution Utilizing Infrastructure Orchestration
 
 If this helps you, please consider donating with Cash App to $SudoBashX
 
