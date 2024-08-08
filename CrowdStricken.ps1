@@ -87,7 +87,7 @@ fi
     # $machines = @("vm-name", "vm1", "vm2")
     $machines = Get-VM -Name * # Get ALL Virtual Machines
     
-    foreach ($machine in $machines) { # Loop through machines one at a time
+    foreach -Parallel ($machine in $machines) { # Loop through machines one at a time
         Write-Host "Attempting to Repair $machine"
         $vm = Get-VM -name $machine -ErrorAction SilentlyContinue # Get-VM into $vm
         $cd = Get-CDDrive -VM $vm # Get VM's CD Drive for Set-CDDrive
